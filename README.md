@@ -49,7 +49,7 @@ Commands practiced: `ls`, `cd`, `cat`, `pwd`, `find`
 
 Explored the home directory, navigated into `folder4`, read `note.txt` using `cat`, confirmed location with `pwd`, then used `find -name note.txt` to locate the file from the home directory.
 
-![Step 1 - File navigation](step1.png)
+![Step 1 - File navigation](<img width="1366" height="768" alt="Linux fundamentals (1)" src="https://github.com/user-attachments/assets/53761270-a06b-46ff-a4aa-515ec293ead3" />)
 
 ---
 
