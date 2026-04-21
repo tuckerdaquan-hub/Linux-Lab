@@ -49,7 +49,7 @@ Commands practiced: `ls`, `cd`, `cat`, `pwd`, `find`
 
 Explored the home directory, navigated into `folder4`, read `note.txt` using `cat`, confirmed location with `pwd`, then used `find -name note.txt` to locate the file from the home directory.
 
-![Step 1 - File navigation] <img width="1366" height="768" alt="Linux fundamentals (1)" src="https://github.com/user-attachments/assets/53761270-a06b-46ff-a4aa-515ec293ead3" />
+<img width="1366" height="768" alt="Linux fundamentals (1)" src="https://github.com/user-attachments/assets/53761270-a06b-46ff-a4aa-515ec293ead3" />
 
 ---
 
@@ -59,7 +59,7 @@ Commands practiced: `touch`, `mv`, `mkdir`, `file`, `cat`
 
 Created a new file with `touch newnote`, identified an unknown file type using the `file` command (returned `ASCII text`), moved `myfile` into `myfolder` with `mv`, then read its contents — revealing a hidden flag.
 
-![Step 2 - Creating and moving files](step2.png)
+<img width="1366" height="768" alt="Linux fundamentals (2)" src="https://github.com/user-attachments/assets/083e2b9a-2690-4c6f-9095-480f0f2927bc" />
 
 ---
 
@@ -69,7 +69,7 @@ Commands practiced: `ls -lh`, `su`, `cat`, `chmod`, `pwd`, `cd`
 
 Ran `ls -lh` to view file ownership and permissions. Switched to `user2` with `su user2` and successfully read the `important` file (which contained a flag). Explored `chmod` syntax and navigated back to the home directory.
 
-![Step 3 - Permissions and user switching](step3.png)
+<img width="1366" height="768" alt="Linux fundamentals (3)" src="https://github.com/user-attachments/assets/c3aead80-a55c-4b23-b6b7-b493a2843a75" />
 
 ---
 
@@ -79,7 +79,7 @@ Tool used: `nano`
 
 Opened the `nano` text editor and created a new file called `myfile`. Typed content directly into the terminal editor, demonstrating basic file creation and editing without a GUI.
 
-![Step 4 - Editing with nano](step4.png)
+<img width="1366" height="768" alt="Linux fundamentals (4)" src="https://github.com/user-attachments/assets/4a4081c6-5e44-4984-a401-985df2e8c4ca" />
 
 ---
 
@@ -89,7 +89,7 @@ Command practiced: `python3 -m http.server`
 
 Launched a lightweight HTTP server on port 8000 using Python's built-in module. Confirmed a successful `GET` request in the server logs when the remote machine fetched `.flag.txt` — simulating real file transfer between Linux hosts.
 
-![Step 5 - Python HTTP server](step5.png)
+<img width="1366" height="768" alt="Linux fundamentals (5)" src="https://github.com/user-attachments/assets/dba91302-f1fd-48c8-b4aa-4f577ff1873c" />
 
 ---
 
@@ -99,7 +99,7 @@ Command practiced: `wget`
 
 From the remote AttackBox machine, used `wget` to download `.flag.txt` from the HTTP server running on the other VM. Successfully connected, received a `200 OK` response, and saved the file locally.
 
-![Step 6 - Downloading with wget](step6.png)
+<img width="1366" height="768" alt="Linux fundamentals (6)" src="https://github.com/user-attachments/assets/2101622f-2b73-4f51-bb11-05c94b804dd6" />
 
 ---
 
@@ -109,7 +109,7 @@ Command practiced: `ls -a`, `cat`
 
 Used `ls -a` to reveal hidden dotfiles (files/directories starting with `.`). Spotted `.flag.txt` in the directory listing, then read it with `cat` to retrieve the flag.
 
-![Step 7 - Hidden files with ls -a](step7.png)
+<img width="1366" height="768" alt="Linux fundamentals (7)" src="https://github.com/user-attachments/assets/afbaa5f3-68cd-4a23-b840-8fa0999ac827" />
 
 ---
 
@@ -119,7 +119,7 @@ Command practiced: `ps`
 
 Used the `ps` command to list active processes in the current session. Output showed the running `bash` shell and `ps` itself, demonstrating basic process visibility.
 
-![Step 8 - Process listing with ps](step8.png)
+<img width="1366" height="768" alt="Linux fundamentals (8)" src="https://github.com/user-attachments/assets/d6eb240e-5eb7-4336-a814-c68d93ec803d" />
 
 ---
 
@@ -129,7 +129,7 @@ Command practiced: `top`
 
 Launched `top` for a live, real-time view of system resources — CPU usage, memory, swap, and a ranked list of all running processes with their PIDs, users, and resource consumption.
 
-![Step 9 - Real-time monitoring with top](step9.png)
+<img width="1366" height="768" alt="Linux fundamentals (9)" src="https://github.com/user-attachments/assets/cb73cf63-97a2-4e24-9527-3dea8762237a" />
 
 ---
 
@@ -139,6 +139,6 @@ Command practiced: `crontab -e`
 
 Opened the crontab editor using `nano` and reviewed the cron job syntax. Added a `@reboot` entry to run a script (`/var/opt/processes.sh`) automatically on system startup — a common automation pattern in server environments.
 
-![Step 10 - Crontab for task scheduling](step10.png)
+<img width="1366" height="768" alt="Linux fundamentals (10)" src="https://github.com/user-attachments/assets/00f3a41e-3f98-471d-a996-2e10fc6ccc55" />
 
 ---
